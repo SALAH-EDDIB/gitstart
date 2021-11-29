@@ -2,6 +2,7 @@ body {
     background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     padding: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 
@@ -15,6 +16,10 @@ nav {
     background-color: #fcd7cd;
     border-radius: 10px 10px 0 0;
     padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 li {
@@ -26,9 +31,7 @@ li {
     
 }
 
-ul {
-    float: right;
-}
+
 
 
 h1{
@@ -52,12 +55,20 @@ button{
 
 }
 
+button:hover{
+
+    
+}
+
+
 .header-container{
     display: flex;
     margin: 80px;
 }
 
 
+
 .image{
     width: 500px;
+    
 }
