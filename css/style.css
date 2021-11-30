@@ -38,15 +38,16 @@ h1{
     font-size: 40px;
     color: gray;
     width: 75%;
+    margin-top: 90px;
 }
 
 
 button{
 
-    padding: 15px 40px;
+    padding: 12px 40px;
     font-size: 26px;
     background-color: #ff9a9e;
-    border: none;
+    border: 5px solid #ff9a9e ;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
@@ -57,13 +58,17 @@ button{
 
 button:hover{
 
+    background-color: white;
+    color: #ff9a9e;
     
+
 }
 
 
 .header-container{
     display: flex;
     margin: 80px;
+    
 }
 
 
@@ -72,3 +77,78 @@ button:hover{
     width: 500px;
     
 }
+
+.service h2 {
+
+    text-align: center;
+    color: gray;
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+
+.service1{
+
+    background-color: #fcd7cd;
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 20px;
+
+
+}
+
+.service-h4{
+
+    font-size: 26px;
+    text-transform: uppercase;
+
+}
+
+.service-p{
+
+    color: gray;
+    
+
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+input {
+    display: block;
+}
+
+.send-btn{
+    display: block;
+}
+
+
+.contact {
+display: flex;
+justify-content: center;
+}
+
+.form-container{
+    background-color: #fcd7cd;
+    padding: 40px;
+    
+    
+}
+
+input{
+    margin: auto;
+    width: 300px;
+    width: 90%;
+    border-radius: 30px;
+    padding: 12px ;
+}
+.send-btn{
+margin: auto;
+}
+
