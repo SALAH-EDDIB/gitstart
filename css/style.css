@@ -68,6 +68,7 @@ button:hover{
 .header-container{
     display: flex;
     margin: 80px;
+    ;
     
 }
 
@@ -120,15 +121,78 @@ button:hover{
 }
 
 
-input {
+input , textarea  {
     display: block;
+    padding: 8px 15px ;
+    border-radius: 10px;
+    border: 2px solid #F5F5F5 ;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-size: 20px;
+
 }
+
 
 .send-btn{
     display: block;
 }
 
 
+.service{
+    margin-bottom: 70px;
+}
+
+
+
+.contact {
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+textarea{
+    display: block;
+}
+
+
+.form-container{
+
+    background-color: #fcd7cd;
+    padding: 20px 80px;
+    border-radius: 30px;
+
+}
+
+
+input::placeholder , textarea::placeholder{
+    
+    font-family: sans-serif;
+}
+
+
+label{
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .contact {
 display: flex;
 justify-content: center;
@@ -151,4 +215,4 @@ input{
 .send-btn{
 margin: auto;
 }
-
+ */
